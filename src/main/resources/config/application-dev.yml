@@ -32,8 +32,11 @@ spring:
         serialization.indent_output: true
     data:
         mongodb:
-            uri: mongodb://localhost:27017
-            database: futsalDelta
+            host: ds135433.mlab.com
+            port: 35433
+            database: heroku_c9k1t79t
+            username: heroku_c9k1t79t
+            password: 4088ev5k9jfpra0tl542p6qjqu
     mail:
         host: localhost
         port: 25
